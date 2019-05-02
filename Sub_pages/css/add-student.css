@@ -1,0 +1,305 @@
+/* Importing Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*for top headding*/
+body{
+  margin: none;
+}
+#H1 {
+  position: absolute;
+  top: 238px;
+  left: 150px;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+/*for background*/
+.p1i1 {
+  border-radius: 20px;
+  position: absolute;
+  left: 500px;
+  top: 35px;
+  align-self: center;
+  width: 500px;
+  height: 600px;
+  background-color: rgba(136, 136, 136, 0.18);
+}
+
+/*for paragraph*/
+#p1 {
+  position: absolute;
+  left: 6%;
+  bottom: 75%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+
+/*for paragraph 2*/
+#p2 {
+  position: absolute;
+  left: 6%;
+  bottom: 65%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+/*for top small text*/
+#p01{
+  position: absolute;
+  left: 34.3%;
+  bottom: 87%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+/*for name parragraf*/
+#p3{
+  position: absolute;
+  left: 6%;
+  bottom: 55%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+/*for conform pass*/
+#p4{
+  position: absolute;
+  left: 6%;
+  bottom: 45%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+#p5{
+  position: absolute;
+  left: 6%;
+  bottom: 35%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+#p6{
+  position: absolute;
+  left: 6%;
+  bottom: 26.4%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 13px;
+}
+#p7{
+  position: absolute;
+  left: 6%;
+  bottom: 15%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+#p8{
+  position: absolute;
+  left: 6%;
+  bottom: 5%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 17px;
+}
+
+/*for input 1*/
+#i1 {
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  cursor: text;
+  left: 28%;
+  bottom: 79%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i1:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+
+/*for input 2*/
+#i2 {
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 69%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i2:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+/*for input 3 Name*/
+#i3{
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 59%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i3:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+/* for conform password*/
+#i4{
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 49%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i4:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+#i5{
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 39%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i5:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+#i6{
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 29%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i6:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+#i7{
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 19%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i7:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+#i8{
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  display: inline-block;
+  left: 28%;
+  cursor: text;
+  bottom: 9%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 14px;
+}
+#i8:focus{
+  background-color: rgba(131, 128, 128, 0.05);
+}
+
+/*for button 1*/
+.b-1 {
+  position: absolute;
+  left: 75.8%;
+  bottom: 48.2%;
+  display: inline-block;
+  border: none;
+  background-color: rgb(38, 139, 186);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+/*for animation of hover*/
+.b-1:hover {
+  background-color: rgba(35, 175, 23, 0.72);
+  color: rgb(0, 0, 0);
+  -webkit-transition: 500ms;
+  transform: 500ms;
+}
+
+/*sign up */
+#a1 {
+  position: absolute;
+  left: 75.2%;
+  bottom: 40%;
+  border: 0px;
+  border-radius: 100px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(38, 139, 186);
+}
+
+
+#a1:hover {
+  color: rgb(38, 186, 62);
+  -webkit-transition:500ms;
+  transform: 200ms;
+
+}

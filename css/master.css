@@ -1,0 +1,101 @@
+/* Importing Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+head {}
+
+/*for top headding*/
+#h1 {
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+/*for background design*/
+.h2b1 {
+  border-radius: 100px;
+  position: absolute;
+  left: 35%;
+  align-self: center;
+  width: 400px;
+  height: 200px;
+  background-color: rgba(136, 136, 136, 0.18);
+}
+.h3b2 {
+  border-radius: 100px;
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+  width: 400px;
+  height: 200px;
+  background-color: rgba(136, 136, 136, 0.18);
+}
+
+/*for heading administrator*/
+#h2 {
+  position: absolute;
+  left: 29%;
+  bottom: 45%;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 20px;
+}
+/*for heading Accountant*/
+#h3 {
+  position: absolute;
+  left: 30%;
+  bottom: 45%;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 20px;
+}
+/*for button 1*/
+.b-1 {
+  position: absolute;
+  left: 37.5%;
+  bottom: 30%;
+  display: inline-block;
+  border: none;
+  background-color: rgb(38, 139, 186);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12 px;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+/*for animation of hover*/
+.b-1:hover {
+  background-color: rgba(35, 175, 23, 0.72);
+  color: rgb(0, 0, 0);
+  -webkit-transition: 500ms;
+  transform: 500ms;
+}
+/*for button 2*/
+.b-2 {
+  position: absolute;
+  left: 37.5%;
+  bottom: 26%;
+  display: inline-block;
+  border: none;
+  background-color: rgb(38, 139, 186);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12 px;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+/*for animation of hover*/
+.b-2:hover {
+  background-color: rgba(35, 175, 23, 0.72);
+  color: rgb(0, 0, 0);
+  -webkit-transition: 500ms;
+  transform: 500ms;
+}
